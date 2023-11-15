@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0; 
+    max-width: 100%;
+    border-radius: 8%;
+    font-size: 15px;
+}
+
+#Navbar-Pinterest{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom:9px ;
+    justify-content: space-evenly;
+    color: black;
+    position:fixed;
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+    z-index: 999;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#pinterest-icon{
+    padding-top: 15px;
+    width: 28px;
+    height: 28px;
+    padding: 10px;
+}
+
+#pinterest-icon:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+
+#INI{
+    background-color: black;
+    padding-bottom: 15px;
+    color: white;
+    border-radius: 40%;
+}
+
+#Notifications{
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+#Notifications:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+
+#Message{
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+#Message:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+
+#Profile-img{
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+#Profile-img:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+
+.navegador2{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family:sans-serif;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navegador2:hover{
+    cursor: pointer;
+}
+
+.navegador3{
+    width: 13px;
+    height: 13px;
+    padding: 13px;
+    padding-top: 15px;
+}
+
+.navegador3:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+}
+
+.finder{
+    width: 58%;
+    border: none;
+    height: 47px;
+    border-radius: 25px;
+    background-color:gainsboro;
+}
+
+.finder:hover{
+    background-color: lightgray;
+}
+
+#Content{
+    display: flex;
+    column-gap: 1.7%;
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 6.5%;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+}
+
+.Card-image{
+    padding-bottom: 5%;
+    position: relative;
+}
+
+.Card-image:hover{
+    cursor: zoom-in;
+    filter: grayscale(60%);
+    z-index: 1;
+}
+
+.BOTON {
+    position: absolute;
+    opacity: 0;
+    background-color: rgb(214, 32, 32);
+    border: 20px;
+    border-radius: 38%;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    color: white;
+    top: 5%;
+    left: 55%;
+}
+
+.Card-image:hover .BOTON {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.BOTON:hover{
+    background-color:rgb(145, 33, 33) ;
+}
+
+.BOTON-DOS{
+    position: absolute;
+    top: 80%;
+    left: 68%;
+    opacity: 0;
+    border-radius: 50%;
+    border: none;
+    width: 25px;
+    height: 25px;
+}
+
+.Card-image:hover .BOTON-DOS {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.BOTON-DOS:hover{
+    background-color: white;
+}
+
+.BOTON-TRES{
+    position: absolute;
+    opacity: 0;
+    left: 83%;
+    top: 80%;
+    border: 0;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+
+.Card-image:hover .BOTON-TRES {
+    opacity: 1;    
+    cursor: pointer;
+}
+
+.BOTON-TRES:hover{
+    background-color: white;
+}
+
+@media screen and (max-width:1200px){
+    .finder{
+        width: 54%;
+    }
+
+    .BOTON{
+        top: 5%;
+        left: 50%;
+    }
+
+    .BOTON-DOS{
+        left: 65%;
+        top: 80%;
+    }
+
+    .BOTON-TRES{
+        left: 80%;
+        top: 80%;
+    }
+
+    .column{
+        padding-top: 2%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .navegador2{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #CR{
+        width: 0;
+        height: 0;
+        padding: 0;
+        font-size: 0;
+        margin: 0;
+    }
+
+    #INI{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .finder{
+        width: 53%;
+    }    
+
+    .BOTON{
+        top: 5%;
+        left: 40%;
+    }
+
+    .BOTON-DOS{
+        left: 60%;
+        top: 75%;
+    }
+
+    .BOTON-TRES{
+        left: 80%;
+        top: 75%;
+    }
+
+    .column{
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .BOTON{
+        font-size: 13px;
+    }
+
+    .column{
+        padding-top: 4%;
+    }
+}
+
+@media screen and (max-width:840px){
+    .finder{
+        width: 50%;
+    }
+
+    .column{
+        padding-top: 7%;
+    }
+}
+
+@media screen and (max-width:750px){
+    #EX{
+        width: 0;
+        height: 0;
+        padding: 0;
+        font-size: 0;
+        margin: 0;
+    }
+
+    #INI{
+        background-color: white;
+        color: black;
+    }
+
+    .BOTON{
+        font-size: 10px;
+        padding: 10px;
+        top: 5%;
+        left: 50%;
+    }
+
+    .BOTON-DOS{
+        left: 60%;
+        top: 75%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .BOTON-TRES{
+        left: 80%;
+        top: 75%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .column{
+        padding-top: 7%;
+    }
+}
+
+@media screen and (max-width:650px){
+    .column{
+        padding-top: 8%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .finder{
+        width: 48%;
+    }
+
+    .BOTON{
+        font-size: 10px;
+        padding: 10px;
+        top: 5%;
+        left: 45%;
+    }
+
+    .BOTON-DOS{
+        left: 60%;
+        top: 70%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .BOTON-TRES{
+        left: 80%;
+        top: 70%;
+        width: 20px;
+        height: 20px;
+    }
+
+    .column{
+        padding-top:8%;
+    }
+}
