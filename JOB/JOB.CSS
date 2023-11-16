@@ -1,0 +1,130 @@
+*{ 
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+    border-radius: 8%;
+    font-size: 15px;
+}
+
+#Navbar-Pinterest{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    justify-content: space-evenly;
+    color: black;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    border-radius: 0;
+    z-index: 999;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#pinterest-icon{
+
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+#pinterest-icon:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+
+}
+
+#Notifications{
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+#Notifications:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+
+}
+
+#Message{
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+#Message:hover{
+   cursor: pointer;
+   background-color:gainsboro;
+   border-radius: 50%;
+
+}
+
+#profile-img{
+    padding-top: 15px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+}
+
+#profile-img:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+    border-radius: 50%;
+
+}
+
+.Nasus3{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+.Nasus3:hover{
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: gainsboro;
+    padding: 5px;
+}
+
+.finder{
+    width: 58%;
+    border: none;
+    height: 47px;
+    border-radius: 25px;
+    background-color: lightgrey;
+}
+ 
+.finder:hover{
+    background-color: lightgrey;
+}
+
+.card-image{
+    padding-bottom: 5%;
+}
+.card-image:hover{
+    cursor: zoom-in;
+    filter: grayscale(70%);
+}
+
+#contaniner{
+    display: flex;
+    column-gap: 10px;
+    padding-top: 7%;
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+.nasus4{
+    display: flex;
+    flex-direction: column;
+}
